@@ -1,0 +1,10 @@
+   0 cd
+   1 mkdir -p /home/user/start
+   2 mkdir -p /opt/task
+   3 touch /home/user/start/1.txt
+   4 touch /opt/task/start.txt
+   5 vi 1.txt
+   6 date
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 df -h | tail -4 >> start.txt
+   9 history >> history.txt
